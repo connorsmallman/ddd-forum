@@ -4,7 +4,7 @@ import { DownvoteComment } from "./DownvoteComment";
 import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import { DownvoteCommentDTO } from "./DownvoteCommentDTO";
 import { DownvoteCommentErrors } from "./DownvoteCommentErrors";
-import * as express from 'express'
+import * as express from 'express';
 
 export class DownvoteCommentController extends BaseController {
   private useCase: DownvoteComment;
