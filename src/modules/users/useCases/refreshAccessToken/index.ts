@@ -1,6 +1,6 @@
 
 import { RefreshAccessToken } from "./RefreshAccessToken";
-import { userRepo } from "../../repos";
+import { userRepo } from "../../repositories";
 import { authService } from "../../services";
 import { RefreshAccessTokenController } from "./RefreshAccessTokenController";
 

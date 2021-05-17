@@ -1,6 +1,6 @@
 
 import { LogoutUseCase } from "./LogoutUseCase";
-import { userRepo } from "../../repos";
+import { userRepo } from "../../repositories";
 import { authService } from "../../services";
 import { LogoutController } from "./LogoutController";
 

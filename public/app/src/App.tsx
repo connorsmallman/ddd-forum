@@ -7,7 +7,7 @@ import DiscussionPage from './pages/discussion';
 import CommentPage from './pages/comment';
 import LoginPage from './pages/login';
 import JoinPage from './pages/join';
-import AuthenticatedRoute from './shared/infra/router/AuthenticatedRoute';
+import AuthenticatedRoute from './shared/infrastructure/router/AuthenticatedRoute';
 import SubmitPage from './pages/submit';
 import MemberPage from './pages/member';
 

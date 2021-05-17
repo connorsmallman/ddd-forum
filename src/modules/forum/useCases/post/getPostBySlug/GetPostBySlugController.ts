@@ -2,10 +2,10 @@
 import { PostDetailsMap } from "../../../mappers/postDetailsMap";
 import { GetPostBySlug } from "./GetPostBySlug";
 import { GetPostBySlugDTO } from "./GetPostBySlugDTO";
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { PostDTO } from "../../../dtos/postDTO";
 import * as express from 'express'
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 
 export class GetPostBySlugController extends BaseController {
   private useCase: GetPostBySlug;

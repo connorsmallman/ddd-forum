@@ -1,6 +1,6 @@
 
 import { ReplyToPost } from "./ReplyToPost";
-import { memberRepo, postRepo } from "../../../repos";
+import { memberRepo, postRepo } from "../../../repositories";
 import { ReplyToPostController } from "./ReplyToPostController";
 
 const replyToPost = new ReplyToPost(memberRepo, postRepo);

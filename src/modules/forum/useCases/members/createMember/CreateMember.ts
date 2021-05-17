@@ -1,8 +1,8 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 import { CreateMemberDTO } from "./CreateMemberDTO";
-import { IUserRepo } from "../../../../users/repos/userRepo";
+import { IUserRepo } from "../../../../users/repositories/userRepo";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { CreateMemberErrors } from "./CreateMemberErrors";

@@ -1,5 +1,5 @@
 
-import { Mapper } from "../../../shared/infra/Mapper";
+import { Mapper } from "../../../shared/infrastructure/Mapper";
 import { UniqueEntityID } from "../../../shared/domain/UniqueEntityID";
 import { MemberId } from "../domain/memberId";
 

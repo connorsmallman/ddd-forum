@@ -4,9 +4,9 @@ import { GetPopularPostsRequestDTO } from "./GetPopularPostsRequestDTO";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { PostDetails } from "../../../domain/postDetails";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { MemberId } from "../../../domain/memberId";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 
 type Response = Either<
   AppError.UnexpectedError,

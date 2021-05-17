@@ -5,7 +5,7 @@ import { LoginUseCaseErrors } from "./LoginErrors";
 import { AppError } from "../../../../shared/core/AppError";
 import { Either, Result, left, right } from "../../../../shared/core/Result";
 import { UseCase } from "../../../../shared/core/UseCase";
-import { IUserRepo } from "../../repos/userRepo";
+import { IUserRepo } from "../../repositories/userRepo";
 import { IAuthService } from "../../services/authService";
 import { User } from "../../domain/user";
 import { UserName } from "../../domain/userName";

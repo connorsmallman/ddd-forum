@@ -4,7 +4,7 @@ import { GetRecentPostsRequestDTO } from "./GetRecentPostsRequestDTO";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { PostDetails } from "../../../domain/postDetails";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 
 type Response = Either<
   AppError.UnexpectedError,

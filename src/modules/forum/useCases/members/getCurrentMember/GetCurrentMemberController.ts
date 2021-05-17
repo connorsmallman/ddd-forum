@@ -1,7 +1,7 @@
 
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { GetMemberByUserName } from "../getMemberByUserName/GetMemberByUserName";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import { GetMemberByUserNameResponseDTO } from "../getMemberByUserName/GetMemberByUserNameResponseDTO";
 import { MemberDetailsMap } from "../../../mappers/memberDetailsMap";
 import * as express from 'express'

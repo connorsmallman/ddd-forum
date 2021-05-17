@@ -1,6 +1,6 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 import { GetMemberByUserNameDTO } from "./GetMemberByUserNameDTO";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";

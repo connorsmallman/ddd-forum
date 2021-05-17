@@ -4,14 +4,14 @@ import { UpvoteCommentDTO } from "./UpvoteCommentDTO";
 import { Member } from "../../../domain/member";
 import { Post } from "../../../domain/post";
 import { Comment } from "../../../domain/comment";
-import { IPostRepo } from "../../../repos/postRepo";
-import { IMemberRepo } from "../../../repos/memberRepo";
-import { ICommentRepo } from "../../../repos/commentRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
+import { ICommentRepo } from "../../../repositories/commentRepo";
 import { UpvoteCommentResponse } from "./UpvoteCommentResonse";
 import { left, right, Result } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { CommentVote } from "../../../domain/commentVote";
-import { ICommentVotesRepo } from "../../../repos/commentVotesRepo";
+import { ICommentVotesRepo } from "../../../repositories/commentVotesRepo";
 import { UpvoteCommentErrors } from "./UpvoteCommentErrors";
 import { PostService } from "../../../domain/services/postService";
 

@@ -1,8 +1,8 @@
 
-import { BaseAPI } from "../../../shared/infra/services/BaseAPI";
+import { BaseAPI } from "../../../shared/infrastructure/services/BaseAPI";
 import { right, left } from "../../../shared/core/Either";
 import { Result } from "../../../shared/core/Result";
-import { APIResponse } from "../../../shared/infra/services/APIResponse";
+import { APIResponse } from "../../../shared/infrastructure/services/APIResponse";
 import { LoginDTO } from "../dtos/loginDTO";
 import { User } from "../models/user";
 import { IAuthService } from "./authService";

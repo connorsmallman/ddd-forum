@@ -1,4 +1,4 @@
-import { Mapper } from "../../../shared/infra/Mapper";
+import { Mapper } from "../../../shared/infrastructure/Mapper";
 import { Member } from "../domain/member";
 import { MemberDTO } from "../dtos/memberDTO";
 import { UniqueEntityID } from "../../../shared/domain/UniqueEntityID";

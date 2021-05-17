@@ -1,13 +1,13 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { ICommentRepo } from "../../../repos/commentRepo";
+import { ICommentRepo } from "../../../repositories/commentRepo";
 import { GetCommentByCommentIdRequestDTO } from "./GetCommentByCommentIdRequestDTO";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { CommentDetails } from "../../../domain/commentDetails";
 import { AppError } from "../../../../../shared/core/AppError";
 import { GetCommentByCommentIdErrors } from "./GetCommentByCommentIdErrors";
 import { MemberId } from "../../../domain/memberId";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 import * as express from 'express'
 
 type Response = Either<

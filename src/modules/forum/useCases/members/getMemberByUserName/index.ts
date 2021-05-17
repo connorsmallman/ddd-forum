@@ -1,6 +1,6 @@
 
 import { GetMemberByUserName } from "./GetMemberByUserName";
-import { memberRepo } from "../../../repos";
+import { memberRepo } from "../../../repositories";
 import { GetMemberByUserNameController } from "./GetMemberByUserNameController";
 
 const getMemberByUserName = new GetMemberByUserName(

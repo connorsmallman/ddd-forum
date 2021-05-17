@@ -1,6 +1,6 @@
 
 import { MemberRepo } from "./implementations/sequelizeMemberRepo";
-import models from "../../../shared/infra/database/sequelize/models";
+import models from "../../../shared/infrastructure/database/sequelize/models";
 import { PostRepo } from "./implementations/sequelizePostRepo";
 import { CommentRepo } from "./implementations/commentRepo";
 import { PostVotesRepo } from "./implementations/sequelizePostVotesRepo";

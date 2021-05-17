@@ -4,10 +4,10 @@ import { UpdatePostStatsDTO } from "./UpdatePostStatsDTO";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { UpdatePostStatsErrors } from "./UpdatePostStatsErrors";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { Post } from "../../../domain/post";
-import { IPostVotesRepo } from "../../../repos/postVotesRepo";
-import { ICommentVotesRepo } from "../../../repos/commentVotesRepo";
+import { IPostVotesRepo } from "../../../repositories/postVotesRepo";
+import { ICommentVotesRepo } from "../../../repositories/commentVotesRepo";
 
 type Response = Either<
   UpdatePostStatsErrors.PostNotFoundError |

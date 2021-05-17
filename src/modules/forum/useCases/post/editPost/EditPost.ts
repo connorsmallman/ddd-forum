@@ -1,6 +1,6 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { EditPostDTO } from "./EditPostDTO";
 import { EditPostResponse } from "./EditPostResponse";
 import { Post } from "../../../domain/post";

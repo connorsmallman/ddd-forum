@@ -2,9 +2,9 @@
 import { GetUserByUserNameErrors } from "./GetUserByUserNameErrors";
 import { GetUserByUserNameDTO } from "./GetUserByUserNameDTO";
 import { GetUserByUserName } from "./GetUserByUserName";
-import { BaseController } from "../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../shared/infrastructure/http/models/BaseController";
 import * as express from 'express'
-import { DecodedExpressRequest } from "../../infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../infrastructure/http/models/decodedRequest";
 
 export class GetUserByUserNameController extends BaseController {
   private useCase: GetUserByUserName;

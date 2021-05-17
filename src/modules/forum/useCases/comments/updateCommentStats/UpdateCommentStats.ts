@@ -3,8 +3,8 @@ import { UseCase } from "../../../../../shared/core/UseCase";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { UpdateCommentStatsDTO } from "./UpdateCommentStatsDTO";
-import { ICommentVotesRepo } from "../../../repos/commentVotesRepo";
-import { ICommentRepo } from "../../../repos/commentRepo";
+import { ICommentVotesRepo } from "../../../repositories/commentVotesRepo";
+import { ICommentRepo } from "../../../repositories/commentRepo";
 import { Comment } from "../../../domain/comment";
 
 type Response = Either<

@@ -1,6 +1,6 @@
 
 import express from 'express';
-import { middleware } from '../../../../../shared/infra/http';
+import { middleware } from '../../../../../shared/infrastructure/http';
 import { createPostController } from '../../../useCases/post/createPost';
 import { getRecentPostsController } from '../../../useCases/post/getRecentPosts';
 import { getPostBySlugController } from '../../../useCases/post/getPostBySlug';

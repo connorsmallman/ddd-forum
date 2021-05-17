@@ -2,9 +2,9 @@
 import { DeleteUserUseCase } from "./DeleteUserUseCase";
 import { DeleteUserDTO } from "./DeleteUserDTO";
 import { DeleteUserErrors } from "./DeleteUserErrors";
-import { BaseController } from "../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../shared/infrastructure/http/models/BaseController";
 import * as express from 'express'
-import { DecodedExpressRequest } from "../../infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../infrastructure/http/models/decodedRequest";
 
 export class DeleteUserController extends BaseController {
   private useCase: DeleteUserUseCase;

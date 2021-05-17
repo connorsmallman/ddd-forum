@@ -1,10 +1,10 @@
 
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { GetPopularPostsRequestDTO } from "./GetPopularPostsRequestDTO";
 import { GetPopularPosts } from "./GetPopularPosts";
 import { GetPopularPostsResponseDTO } from "./GetPopularPostsResponseDTO";
 import { PostDetailsMap } from "../../../mappers/postDetailsMap";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import * as express from 'express'
 
 export class GetPopularPostsController extends BaseController {

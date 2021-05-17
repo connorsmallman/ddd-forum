@@ -2,7 +2,7 @@
 import { getRecentPosts } from '../../../../modules/forum/useCases/post/getRecentPosts'
 import { PostDetailsMap } from '../../../../modules/forum/mappers/postDetailsMap'
 import { GraphQLDateTime } from 'graphql-iso-date';
-import { memberRepo } from '../../../../modules/forum/repos'
+import { memberRepo } from '../../../../modules/forum/repositories'
 import { MemberDetailsMap } from '../../../../modules/forum/mappers/memberDetailsMap'
 import { ApolloServer, gql } from 'apollo-server-express';
 

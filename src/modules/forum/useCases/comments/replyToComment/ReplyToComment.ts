@@ -1,7 +1,7 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IMemberRepo } from "../../../repos/memberRepo";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { ReplyToCommentDTO } from "./ReplyToCommentDTO";
 import { left, Either, Result, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
@@ -10,7 +10,7 @@ import { Member } from "../../../domain/member";
 import { PostSlug } from "../../../domain/postSlug";
 import { ReplyToCommentErrors } from "./ReplyToCommentErrors";
 import { Comment } from "../../../domain/comment";
-import { ICommentRepo } from "../../../repos/commentRepo";
+import { ICommentRepo } from "../../../repositories/commentRepo";
 import { CommentText } from "../../../domain/commentText";
 import { PostService } from "../../../domain/services/postService";
 

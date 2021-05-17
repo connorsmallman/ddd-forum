@@ -1,6 +1,6 @@
 
 import { ReplyToComment } from "./ReplyToComment";
-import { memberRepo, postRepo, commentRepo } from "../../../repos";
+import { memberRepo, postRepo, commentRepo } from "../../../repositories";
 import { ReplyToCommentController } from "./ReplyToCommentController";
 import { postService } from "../../../domain/services";
 

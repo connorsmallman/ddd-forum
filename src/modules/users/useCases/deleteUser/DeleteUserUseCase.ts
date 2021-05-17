@@ -3,7 +3,7 @@ import { DeleteUserDTO } from "./DeleteUserDTO";
 import { DeleteUserErrors } from "./DeleteUserErrors";
 import { Either, Result, left, right } from "../../../../shared/core/Result";
 import { AppError } from "../../../../shared/core/AppError";
-import { IUserRepo } from "../../repos/userRepo";
+import { IUserRepo } from "../../repositories/userRepo";
 import { UseCase } from "../../../../shared/core/UseCase";
 
 type Response = Either<

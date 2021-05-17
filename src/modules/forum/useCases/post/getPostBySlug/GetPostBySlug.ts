@@ -1,7 +1,7 @@
 
 
 import { UseCase } from "../../../../../shared/core/UseCase"; 
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { PostDetails } from "../../../domain/postDetails";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";

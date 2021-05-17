@@ -1,5 +1,5 @@
 
-import { Mapper } from "../../../shared/infra/Mapper";
+import { Mapper } from "../../../shared/infrastructure/Mapper";
 import { PostDetails } from "../domain/postDetails";
 import { PostDTO } from "../dtos/postDTO";
 import { PostSlug } from "../domain/postSlug";

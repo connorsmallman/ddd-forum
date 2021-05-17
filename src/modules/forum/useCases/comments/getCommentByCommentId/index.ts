@@ -1,6 +1,6 @@
 
 import { GetCommentByCommentId } from "./GetCommentByCommentId";
-import { commentRepo, memberRepo } from "../../../repos";
+import { commentRepo, memberRepo } from "../../../repositories";
 import { GetCommentByCommentIdController } from "./GetCommentByCommentIdController";
 
 const getCommentByCommentId = new GetCommentByCommentId(

@@ -1,12 +1,12 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IMemberRepo } from "../../../repos/memberRepo";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { left, right, Result } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { Member } from "../../../domain/member";
 import { Post } from "../../../domain/post";
-import { IPostVotesRepo } from "../../../repos/postVotesRepo";
+import { IPostVotesRepo } from "../../../repositories/postVotesRepo";
 import { PostVote } from "../../../domain/postVote";
 import { PostService } from "../../../domain/services/postService";
 import { DownvotePostResponse } from "./DownvotePostResponse";

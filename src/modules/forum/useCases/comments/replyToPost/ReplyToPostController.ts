@@ -1,7 +1,7 @@
 
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { ReplyToPost } from "./ReplyToPost";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import { ReplyToPostDTO } from "./ReplyToPostDTO";
 import { ReplyToPostErrors } from "./ReplyToPostErrors";
 import { TextUtils } from "../../../../../shared/utils/TextUtils";

@@ -5,8 +5,8 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
-import configureStore from './shared/infra/redux/configureStore';
-import { initialReduxStartupScript } from './shared/infra/redux/startupScript';
+import configureStore from './shared/infrastructure/redux/configureStore';
+import { initialReduxStartupScript } from './shared/infrastructure/redux/startupScript';
 
 const store = configureStore();
 

@@ -1,10 +1,10 @@
 
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { GetCommentsByPostSlug } from "./GetCommentsByPostSlug";
 import { GetCommentsByPostSlugRequestDTO } from "./GetCommentsByPostSlugRequestDTO";
 import { GetCommentsByPostSlugResponseDTO } from "./GetCommentsByPostSlugResponseDTO";
 import { CommentDetailsMap } from "../../../mappers/commentDetailsMap";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import * as express from 'express'
 
 export class GetCommentsByPostSlugController extends BaseController {

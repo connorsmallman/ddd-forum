@@ -3,7 +3,7 @@ import { CreateUserDTO } from "./CreateUserDTO";
 import { CreateUserErrors } from "./CreateUserErrors";
 import { Either, Result, left, right } from "../../../../shared/core/Result";
 import { AppError } from "../../../../shared/core/AppError";
-import { IUserRepo } from "../../repos/userRepo";
+import { IUserRepo } from "../../repositories/userRepo";
 import { UseCase } from "../../../../shared/core/UseCase";
 import { UserEmail } from "../../domain/userEmail";
 import { UserPassword } from "../../domain/userPassword";

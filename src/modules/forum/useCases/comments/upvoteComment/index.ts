@@ -1,6 +1,6 @@
 
 import { UpvoteComment } from "./UpvoteComment";
-import { postRepo, memberRepo, commentRepo, commentVotesRepo } from "../../../repos";
+import { postRepo, memberRepo, commentRepo, commentVotesRepo } from "../../../repositories";
 import { postService } from "../../../domain/services";
 import { UpvoteCommentController } from "./UpvoteCommentController";
 

@@ -5,9 +5,9 @@ import { AppError } from "../../../../../shared/core/AppError";
 import { GetCommentsByPostSlugErrors } from "./GetCommentsByPostSlugErrors";
 import { CommentDetails } from "../../../domain/commentDetails";
 import { GetCommentsByPostSlugRequestDTO } from "./GetCommentsByPostSlugRequestDTO";
-import { ICommentRepo } from "../../../repos/commentRepo";
+import { ICommentRepo } from "../../../repositories/commentRepo";
 import { MemberId } from "../../../domain/memberId";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 
 type Response = Either<
   GetCommentsByPostSlugErrors.PostNotFoundError |

@@ -1,11 +1,11 @@
 import { UseCase } from "../../../../../shared/core/UseCase";
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { ReplyToPostErrors } from "./ReplyToPostErrors";
 import { ReplyToPostDTO } from "./ReplyToPostDTO";
 import { Post } from "../../../domain/post";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 import { Member } from "../../../domain/member";
 import { Comment } from "../../../domain/comment";
 import { CommentText } from "../../../domain/commentText";

@@ -1,7 +1,7 @@
 
 import { CreateMember } from "./CreateMember";
-import { userRepo } from "../../../../users/repos";
-import { memberRepo } from "../../../repos";
+import { userRepo } from "../../../../users/repositories";
+import { memberRepo } from "../../../repositories";
 
 const createMember = new CreateMember(
   userRepo, memberRepo

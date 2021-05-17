@@ -1,8 +1,8 @@
 
 import express from 'express'
-import { userRouter } from '../../../../modules/users/infra/http/routes';
-import { memberRouter, commentRouter } from '../../../../modules/forum/infra/http/routes';
-import { postRouter } from '../../../../modules/forum/infra/http/routes/post';
+import { userRouter } from '../../../../modules/users/infrastructure/http/routes';
+import { memberRouter, commentRouter } from '../../../../modules/forum/infrastructure/http/routes';
+import { postRouter } from '../../../../modules/forum/infrastructure/http/routes/post';
 
 const v1Router = express.Router();
 

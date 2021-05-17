@@ -1,7 +1,7 @@
 
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { DownvoteComment } from "./DownvoteComment";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import { DownvoteCommentDTO } from "./DownvoteCommentDTO";
 import { DownvoteCommentErrors } from "./DownvoteCommentErrors";
 import * as express from 'express'

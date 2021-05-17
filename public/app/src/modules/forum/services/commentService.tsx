@@ -1,6 +1,6 @@
 
-import { APIResponse } from "../../../shared/infra/services/APIResponse";
-import { BaseAPI } from "../../../shared/infra/services/BaseAPI";
+import { APIResponse } from "../../../shared/infrastructure/services/APIResponse";
+import { BaseAPI } from "../../../shared/infrastructure/services/BaseAPI";
 import { IAuthService } from "../../users/services/authService";
 import { Comment } from "../models/Comment";
 import { Result } from "../../../shared/core/Result";

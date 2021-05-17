@@ -1,10 +1,10 @@
 
 import { UseCase } from "../../../../../shared/core/UseCase"; 
-import { IPostRepo } from "../../../repos/postRepo";
+import { IPostRepo } from "../../../repositories/postRepo";
 import { Either, Result, left, right } from "../../../../../shared/core/Result";
 import { AppError } from "../../../../../shared/core/AppError";
 import { CreatePostDTO } from "./CreatePostDTO";
-import { IMemberRepo } from "../../../repos/memberRepo";
+import { IMemberRepo } from "../../../repositories/memberRepo";
 import { Member } from "../../../domain/member";
 import { CreatePostErrors } from "./CreatePostErrors";
 import { Post, PostProps } from "../../../domain/post";

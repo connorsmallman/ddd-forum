@@ -5,7 +5,7 @@ import { Either, Result, left, right } from "../../../../shared/core/Result";
 import { AppError } from "../../../../shared/core/AppError";
 import { JWTToken, RefreshToken } from "../../domain/jwt";
 import { RefreshAccessTokenErrors } from "./RefreshAccessTokenErrors";
-import { IUserRepo } from "../../repos/userRepo";
+import { IUserRepo } from "../../repositories/userRepo";
 import { User } from "../../domain/user";
 import { RefreshAccessTokenDTO } from "./RefreshAccessTokenDTO";
 

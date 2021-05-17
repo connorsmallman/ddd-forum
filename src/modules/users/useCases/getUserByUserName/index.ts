@@ -1,7 +1,7 @@
 
 import { GetUserByUserName } from "./GetUserByUserName";
 import { GetUserByUserNameController } from "./GetUserByUserNameController";
-import { userRepo } from "../../repos";
+import { userRepo } from "../../repositories";
 
 const getUserByUserName = new GetUserByUserName(
   userRepo

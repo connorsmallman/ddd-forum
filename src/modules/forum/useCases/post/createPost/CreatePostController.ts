@@ -1,7 +1,7 @@
-import { BaseController } from "../../../../../shared/infra/http/models/BaseController";
+import { BaseController } from "../../../../../shared/infrastructure/http/models/BaseController";
 import { CreatePost } from "./CreatePost";
 import { CreatePostDTO } from "./CreatePostDTO";
-import { DecodedExpressRequest } from "../../../../users/infra/http/models/decodedRequest";
+import { DecodedExpressRequest } from "../../../../users/infrastructure/http/models/decodedRequest";
 import { CreatePostErrors } from "./CreatePostErrors";
 import { TextUtils } from "../../../../../shared/utils/TextUtils";
 import * as express from 'express'

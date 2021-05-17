@@ -1,5 +1,5 @@
 
-import { Mapper } from "../../../shared/infra/Mapper";
+import { Mapper } from "../../../shared/infrastructure/Mapper";
 import { MemberDetails } from "../domain/memberDetails";
 import { UserName } from "../../users/domain/userName";
 import { MemberDTO } from "../dtos/memberDTO";

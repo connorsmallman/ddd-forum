@@ -4,7 +4,7 @@ import { createUserController } from '../../../useCases/createUser';
 import { deleteUserController } from '../../../useCases/deleteUser';
 import { getUserByUserNameController } from '../../../useCases/getUserByUserName';
 import { loginController } from '../../../useCases/login';
-import { middleware } from '../../../../../shared/infra/http';
+import { middleware } from '../../../../../shared/infrastructure/http';
 import { getCurrentUserController } from '../../../useCases/getCurrentUser';
 import { refreshAccessTokenController } from '../../../useCases/refreshAccessToken';
 import { logoutController } from '../../../useCases/logout';

@@ -2,7 +2,7 @@
 
 import express from 'express'
 import { getCommentsByPostSlugController } from '../../../useCases/comments/getCommentsByPostSlug';
-import { middleware } from '../../../../../shared/infra/http';
+import { middleware } from '../../../../../shared/infrastructure/http';
 import { replyToPostController } from '../../../useCases/comments/replyToPost';
 import { getCommentByCommentIdController } from '../../../useCases/comments/getCommentByCommentId';
 import { replyToCommentController } from '../../../useCases/comments/replyToComment';
