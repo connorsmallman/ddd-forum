@@ -1,7 +1,7 @@
 
 import { IHandle } from "../../../shared/domain/events/IHandle";
 import { DomainEvents } from "../../../shared/domain/events/DomainEvents";
-import { UpdatePostStats } from "../useCases/post/updatePostStats/UpdatePostStats";
+import { UpdatePostStats } from "../application/post/updatePostStats/UpdatePostStats";
 import { CommentVotesChanged } from "../domain/events/commentVotesChanged";
 import { PostId } from "../domain/postId";
 import { PostVotesChanged } from "../domain/events/postVotesChanged";

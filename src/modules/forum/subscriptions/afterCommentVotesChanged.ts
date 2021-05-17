@@ -1,9 +1,9 @@
 
 import { IHandle } from "../../../shared/domain/events/IHandle";
 import { DomainEvents } from "../../../shared/domain/events/DomainEvents";
-import { UpdatePostStats } from "../useCases/post/updatePostStats/UpdatePostStats";
+import { UpdatePostStats } from "../application/post/updatePostStats/UpdatePostStats";
 import { CommentVotesChanged } from "../domain/events/commentVotesChanged";
-import { UpdateCommentStats } from "../useCases/comments/updateCommentStats/UpdateCommentStats";
+import { UpdateCommentStats } from "../application/comments/updateCommentStats/UpdateCommentStats";
 
 export class AfterCommentVotesChanged implements IHandle<CommentVotesChanged> {
   private updatePostStats: UpdatePostStats;

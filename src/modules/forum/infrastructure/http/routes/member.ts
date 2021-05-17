@@ -1,7 +1,7 @@
 
 import express from 'express'
-import { getMemberByUserNameController } from '../../../useCases/members/getMemberByUserName';
-import { getCurrentMemberController } from '../../../useCases/members/getCurrentMember';
+import { getMemberByUserNameController } from '../../../application/members/getMemberByUserName';
+import { getCurrentMemberController } from '../../../application/members/getCurrentMember';
 
 const memberRouter = express.Router();
 

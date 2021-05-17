@@ -2,7 +2,7 @@
 import { User } from "../../users/domain/user";
 import { UserCreated } from "../../users/domain/events/userCreated";
 import { IHandle } from "../../../shared/domain/events/IHandle";
-import { CreateMember } from "../useCases/members/createMember/CreateMember";
+import { CreateMember } from "../application/members/createMember/CreateMember";
 import { DomainEvents } from "../../../shared/domain/events/DomainEvents";
 
 export class AfterUserCreated implements IHandle<UserCreated> {

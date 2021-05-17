@@ -5,11 +5,11 @@ import { Comment } from "../comment";
 import { CommentText } from "../commentText";
 import { Either, Result, left, right } from "../../../../shared/core/Result";
 import { PostVote } from "../postVote";
-import { UpvotePostResponse } from "../../useCases/post/upvotePost/UpvotePostResponse";
-import { DownvotePostResponse } from "../../useCases/post/downvotePost/DownvotePostResponse";
+import { UpvotePostResponse } from "../../application/post/upvotePost/UpvotePostResponse";
+import { DownvotePostResponse } from "../../application/post/downvotePost/DownvotePostResponse";
 import { CommentVote } from "../commentVote";
-import { UpvoteCommentResponse } from "../../useCases/comments/upvoteComment/UpvoteCommentResonse";
-import { DownvoteCommentResponse } from "../../useCases/comments/downvoteComment/DownvoteCommentResponse";
+import { UpvoteCommentResponse } from "../../application/comments/upvoteComment/UpvoteCommentResonse";
+import { DownvoteCommentResponse } from "../../application/comments/downvoteComment/DownvoteCommentResponse";
 
 export class PostService {
 

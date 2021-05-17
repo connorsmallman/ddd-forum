@@ -1,12 +1,12 @@
 
 import express from 'express';
 import { middleware } from '../../../../../shared/infrastructure/http';
-import { createPostController } from '../../../useCases/post/createPost';
-import { getRecentPostsController } from '../../../useCases/post/getRecentPosts';
-import { getPostBySlugController } from '../../../useCases/post/getPostBySlug';
-import { getPopularPostsController } from '../../../useCases/post/getPopularPosts';
-import { upvotePostController } from '../../../useCases/post/upvotePost';
-import { downvotePostController } from '../../../useCases/post/downvotePost';
+import { createPostController } from '../../../application/post/createPost';
+import { getRecentPostsController } from '../../../application/post/getRecentPosts';
+import { getPostBySlugController } from '../../../application/post/getPostBySlug';
+import { getPopularPostsController } from '../../../application/post/getPopularPosts';
+import { upvotePostController } from '../../../application/post/upvotePost';
+import { downvotePostController } from '../../../application/post/downvotePost';
 
 const postRouter = express.Router();
 

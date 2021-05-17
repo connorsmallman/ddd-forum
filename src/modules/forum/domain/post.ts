@@ -19,7 +19,7 @@ import { PostVotesChanged } from "./events/postVotesChanged";
 import { PostVotes } from "./postVotes";
 import { Comments } from "./comments";
 import { CommentVotesChanged } from "./events/commentVotesChanged";
-import { EditPostErrors } from "../useCases/post/editPost/EditPostErrors";
+import { EditPostErrors } from "../application/post/editPost/EditPostErrors";
 
 export type UpdatePostOrLinkResult = Either<
   EditPostErrors.InvalidPostTypeOperationError | 

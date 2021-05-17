@@ -1,13 +1,13 @@
 
 import express from 'express'
-import { createUserController } from '../../../useCases/createUser';
-import { deleteUserController } from '../../../useCases/deleteUser';
-import { getUserByUserNameController } from '../../../useCases/getUserByUserName';
-import { loginController } from '../../../useCases/login';
+import { createUserController } from '../../../application/createUser';
+import { deleteUserController } from '../../../application/deleteUser';
+import { getUserByUserNameController } from '../../../application/getUserByUserName';
+import { loginController } from '../../../application/login';
 import { middleware } from '../../../../../shared/infrastructure/http';
-import { getCurrentUserController } from '../../../useCases/getCurrentUser';
-import { refreshAccessTokenController } from '../../../useCases/refreshAccessToken';
-import { logoutController } from '../../../useCases/logout';
+import { getCurrentUserController } from '../../../application/getCurrentUser';
+import { refreshAccessTokenController } from '../../../application/refreshAccessToken';
+import { logoutController } from '../../../application/logout';
 
 const userRouter = express.Router();
 

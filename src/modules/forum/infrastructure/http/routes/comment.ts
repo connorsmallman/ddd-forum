@@ -1,13 +1,13 @@
 
 
 import express from 'express'
-import { getCommentsByPostSlugController } from '../../../useCases/comments/getCommentsByPostSlug';
+import { getCommentsByPostSlugController } from '../../../application/comments/getCommentsByPostSlug';
 import { middleware } from '../../../../../shared/infrastructure/http';
-import { replyToPostController } from '../../../useCases/comments/replyToPost';
-import { getCommentByCommentIdController } from '../../../useCases/comments/getCommentByCommentId';
-import { replyToCommentController } from '../../../useCases/comments/replyToComment';
-import { upvoteCommentController } from '../../../useCases/comments/upvoteComment';
-import { downvoteCommentController } from '../../../useCases/comments/downvoteComment';
+import { replyToPostController } from '../../../application/comments/replyToPost';
+import { getCommentByCommentIdController } from '../../../application/comments/getCommentByCommentId';
+import { replyToCommentController } from '../../../application/comments/replyToComment';
+import { upvoteCommentController } from '../../../application/comments/upvoteComment';
+import { downvoteCommentController } from '../../../application/comments/downvoteComment';
 
 const commentRouter = express.Router();
 

@@ -1,5 +1,5 @@
 
-import { getRecentPosts } from '../../../../modules/forum/useCases/post/getRecentPosts'
+import { getRecentPosts } from '../../../../modules/forum/application/post/getRecentPosts'
 import { PostDetailsMap } from '../../../../modules/forum/mappers/postDetailsMap'
 import { GraphQLDateTime } from 'graphql-iso-date';
 import { memberRepo } from '../../../../modules/forum/repositories'
